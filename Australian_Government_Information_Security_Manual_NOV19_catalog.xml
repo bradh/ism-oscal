@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0" id="uuid-d3280755-547d-4675-837b-f3db0ee7a46f">
+<catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0" id="uuid-ef1e33d0-1a35-476b-b26c-a5aab68dc0b4">
     <metadata>
         <title>Australian Government Information Security Manual</title>
-        <last-modified>2019-11-28T09:07:04.270Z</last-modified>
+        <last-modified>2019-11-29T00:15:20.879Z</last-modified>
         <version>NOV19</version>
         <oscal-version>1.0.0-milestone2</oscal-version>
     </metadata>
@@ -215,13 +215,6 @@
                 <title>Cyber security incident register</title>
                 <part name="guidance">
                     <p>The purpose of recording cyber security incidents in a register is to highlight their type and frequency so that corrective action can be taken. This information, along with information on the costs of any remediation activities, can also be used as an input to future security risk assessments.</p>
-                    <ul>
-                        <li>the date the cyber security incident occurred</li>
-                        <li>the date the cyber security incident was discovered</li>
-                        <li>a description of the cyber security incident</li>
-                        <li>any actions taken in response to the cyber security incident</li>
-                        <li>to whom the cyber security incident was reported.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0125">
                     <title>Control 0125</title>
@@ -230,6 +223,13 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Aug-19</prop>
                     <part name="statement">
                         <p>A cyber security incident register is maintained with the following information:</p>
+                        <ul>
+                            <li>the date the cyber security incident occurred</li>
+                            <li>the date the cyber security incident was discovered</li>
+                            <li>a description of the cyber security incident</li>
+                            <li>any actions taken in response to the cyber security incident</li>
+                            <li>to whom the cyber security incident was reported.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -252,12 +252,6 @@
                 <title>Handling and containing malicious code infections</title>
                 <part name="guidance">
                     <p>Taking immediate remediation steps after the discovery of malicious code can minimise the time and cost spent eradicating and recovering from the infection. As a priority, all infected systems and media should be isolated to prevent the infection from spreading further. Once isolated, infected systems and media can be scanned by antivirus software to potentially remove the infection. It is important to note though, a complete system restoration from a known good backup or rebuild may be the only reliable way to ensure that malicious code can be truly eradicated.</p>
-                    <ul>
-                        <li>the infected systems are isolated</li>
-                        <li>all previously connected media used in the period leading up to the infection are scanned for signs of infection and isolated if necessary</li>
-                        <li>antivirus software is used to remove the infection from infected systems and media</li>
-                        <li>if the infection cannot be reliably removed, systems are restored from a known good backup or rebuilt.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0917">
                     <title>Control 0917</title>
@@ -266,6 +260,12 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Oct-19</prop>
                     <part name="statement">
                         <p>When malicious code is detected, the following steps are taken to handle the infection:</p>
+                        <ul>
+                            <li>the infected systems are isolated</li>
+                            <li>all previously connected media used in the period leading up to the infection are scanned for signs of infection and isolated if necessary</li>
+                            <li>antivirus software is used to remove the infection from infected systems and media</li>
+                            <li>if the infection cannot be reliably removed, systems are restored from a known good backup or rebuilt.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -717,17 +717,6 @@
                 </part>
                 <part name="guidance">
                     <p>Depending on the documentation framework used, some details common to multiple systems could be consolidated into a higher-level IRP.</p>
-                    <ul>
-                        <li>guidelines on what constitutes a cyber security incident</li>
-                        <li>the types of incidents likely to be encountered and the expected response to each type</li>
-                        <li>how to report cyber security incidents, internally to the organisation and externally to the Australian Cyber Security Centre (ACSC)</li>
-                        <li>other parties which need to be informed in the event of a cyber security incident</li>
-                        <li>the authority, or authorities, responsible for investigating and responding to cyber security incidents</li>
-                        <li>the criteria by which an investigation of a cyber security incident would be requested from a law enforcement agency, the ACSC or other relevant authority</li>
-                        <li>the steps necessary to ensure the integrity of evidence relating to a cyber security incident</li>
-                        <li>system contingency measures or a reference to such details if they are located in a separate document.
-</li>
-                    </ul>
                 </part>
                 <control id="controlid-0043">
                     <title>Control 0043</title>
@@ -736,6 +725,16 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>Systems have an IRP that covers the following:</p>
+                        <ul>
+                            <li>guidelines on what constitutes a cyber security incident</li>
+                            <li>the types of incidents likely to be encountered and the expected response to each type</li>
+                            <li>how to report cyber security incidents, internally to the organisation and externally to the Australian Cyber Security Centre (ACSC)</li>
+                            <li>other parties which need to be informed in the event of a cyber security incident</li>
+                            <li>the authority, or authorities, responsible for investigating and responding to cyber security incidents</li>
+                            <li>the criteria by which an investigation of a cyber security incident would be requested from a law enforcement agency, the ACSC or other relevant authority</li>
+                            <li>the steps necessary to ensure the integrity of evidence relating to a cyber security incident</li>
+                            <li>system contingency measures or a reference to such details if they are located in a separate document.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -1004,16 +1003,6 @@
                 </part>
                 <part name="guidance">
                     <p>When using infrared keyboards with a TOP SECRET system, windows with curtains that can be opened are not acceptable as a method of permanently blocking infrared transmissions.</p>
-                    <ul>
-                        <li>line of sight and reflected communications travelling into unsecured spaces</li>
-                        <li>multiple infrared keyboards for different systems being used in the same area</li>
-                        <li>other infrared devices being used in the same area</li>
-                        <li>infrared keyboards operating in areas with unprotected windows.</li>
-                        <li>line of sight and reflected communications travelling into unsecured spaces</li>
-                        <li>multiple infrared keyboards for different systems being used in the same area</li>
-                        <li>other infrared devices being used in the same area</li>
-                        <li>infrared keyboards operating in areas with windows that have not had a permanent method of blocking infrared transmissions applied to them.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0222">
                     <title>Control 0222</title>
@@ -1031,6 +1020,12 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>When using infrared keyboards, the following activities are prevented:</p>
+                        <ul>
+                            <li>line of sight and reflected communications travelling into unsecured spaces</li>
+                            <li>multiple infrared keyboards for different systems being used in the same area</li>
+                            <li>other infrared devices being used in the same area</li>
+                            <li>infrared keyboards operating in areas with unprotected windows.</li>
+                        </ul>
                     </part>
                 </control>
                 <control id="controlid-0224">
@@ -1040,6 +1035,12 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>When using infrared keyboards, the following activities are prevented:</p>
+                        <ul>
+                            <li>line of sight and reflected communications travelling into unsecured spaces</li>
+                            <li>multiple infrared keyboards for different systems being used in the same area</li>
+                            <li>other infrared devices being used in the same area</li>
+                            <li>infrared keyboards operating in areas with windows that have not had a permanent method of blocking infrared transmissions applied to them.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -1084,13 +1085,6 @@
                 <title>Providing cyber security awareness raising and training</title>
                 <part name="guidance">
                     <p>Organisations should ensure that ongoing cyber security awareness raising and training is provided to all personnel in order to assist them in understanding their security responsibilities. The content of cyber security awareness raising and training will depend on the objectives of the organisation; however, personnel with responsibilities beyond that of a standard user will require tailored content to meet their needs.</p>
-                    <ul>
-                        <li>the purpose of the cyber security awareness raising and training program</li>
-                        <li>security appointments and contacts within the organisation</li>
-                        <li>the authorised use of systems and their resources</li>
-                        <li>the protection of systems and their resources</li>
-                        <li>reporting of cyber security incidents and suspected compromises of systems and their resources.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0252">
                     <title>Control 0252</title>
@@ -1099,6 +1093,13 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-19</prop>
                     <part name="statement">
                         <p>Ongoing cyber security awareness raising and training is provided to personnel and includes:</p>
+                        <ul>
+                            <li>the purpose of the cyber security awareness raising and training program</li>
+                            <li>security appointments and contacts within the organisation</li>
+                            <li>the authorised use of systems and their resources</li>
+                            <li>the protection of systems and their resources</li>
+                            <li>reporting of cyber security incidents and suspected compromises of systems and their resources.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -1467,15 +1468,6 @@
                 <title>Recording authorisation for personnel to access systems</title>
                 <part name="guidance">
                     <p>Retaining records of system account requests will assist in maintaining personnel accountability. This is needed to ensure there is a record of all personnel authorised to access a system, their user identification, who provided the authorisation, when the authorisation was granted and when the access was last reviewed.</p>
-                    <ul>
-                        <li>all personnel authorised to access the system, and their user identification</li>
-                        <li>who provided authorisation for access</li>
-                        <li>when access was granted</li>
-                        <li>the level of access that was granted</li>
-                        <li>when access, and the level of access, was last reviewed</li>
-                        <li>when the level of access was changed, and to what extent (if applicable)</li>
-                        <li>when access was withdrawn (if applicable).</li>
-                    </ul>
                 </part>
                 <control id="controlid-0407">
                     <title>Control 0407</title>
@@ -1484,6 +1476,15 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>A secure record is maintained for the life of each system covering:</p>
+                        <ul>
+                            <li>all personnel authorised to access the system, and their user identification</li>
+                            <li>who provided authorisation for access</li>
+                            <li>when access was granted</li>
+                            <li>the level of access that was granted</li>
+                            <li>when access, and the level of access, was last reviewed</li>
+                            <li>when the level of access was changed, and to what extent (if applicable)</li>
+                            <li>when access was withdrawn (if applicable).</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -2263,14 +2264,6 @@
                 <title>Cable register</title>
                 <part name="guidance">
                     <p>Cable registers allow installers and inspectors to trace cables for cable inspections and malicious or accidental damage. Cable registers track all cable management changes throughout the life of the system.</p>
-                    <ul>
-                        <li>cable identification number</li>
-                        <li>classification</li>
-                        <li>source</li>
-                        <li>destination</li>
-                        <li>site/floor plan diagram</li>
-                        <li>seal numbers (if applicable).</li>
-                    </ul>
                 </part>
                 <control id="controlid-0208">
                     <title>Control 0208</title>
@@ -2279,6 +2272,14 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Oct-19</prop>
                     <part name="statement">
                         <p>A cable register is maintained with the following information:</p>
+                        <ul>
+                            <li>cable identification number</li>
+                            <li>classification</li>
+                            <li>source</li>
+                            <li>destination</li>
+                            <li>site/floor plan diagram</li>
+                            <li>seal numbers (if applicable).</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -2364,11 +2365,6 @@
                 <title>Physical separation of patch panels</title>
                 <part name="guidance">
                     <p>Appropriate physical separation between a TOP SECRET system and a system of a lower classification reduces or eliminates the chances of cross-patching between systems and reduces or eliminates the possibility of unauthorised personnel gaining access to TOP SECRET systems.</p>
-                    <ul>
-                        <li>a physical barrier in the cabinet is provided to separate patch panels</li>
-                        <li>only personnel holding a Positive Vetting security clearance have access to the cabinet</li>
-                        <li>approval from the TOP SECRET system’s authorising officer is obtained prior to installation.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0216">
                     <title>Control 0216</title>
@@ -2386,6 +2382,11 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>Where spatial constraints demand patch panels of lower classifications than TOP SECRET be located in the same cabinet as a TOP SECRET patch panel:</p>
+                        <ul>
+                            <li>a physical barrier in the cabinet is provided to separate patch panels</li>
+                            <li>only personnel holding a Positive Vetting security clearance have access to the cabinet</li>
+                            <li>approval from the TOP SECRET system’s authorising officer is obtained prior to installation.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -2752,12 +2753,6 @@
                 <title>Video conferencing unit and Internet Protocol phone authentication</title>
                 <part name="guidance">
                     <p>Blocking unauthorised or unauthenticated devices by default will reduce the likelihood of unauthorised access to a video conferencing or IP telephony network.</p>
-                    <ul>
-                        <li>IP phones authenticate themselves to the call controller upon registration</li>
-                        <li>auto-registration is disabled and only a whitelist of authorised devices is allowed to access the network</li>
-                        <li>unauthorised devices are blocked by default</li>
-                        <li>all unused and prohibited functionality is disabled.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0554">
                     <title>Control 0554</title>
@@ -2793,6 +2788,12 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Oct-19</prop>
                     <part name="statement">
                         <p>IP telephony is configured such that:</p>
+                        <ul>
+                            <li>IP phones authenticate themselves to the call controller upon registration</li>
+                            <li>auto-registration is disabled and only a whitelist of authorised devices is allowed to access the network</li>
+                            <li>unauthorised devices are blocked by default</li>
+                            <li>all unused and prohibited functionality is disabled.</li>
+                        </ul>
                     </part>
                 </control>
                 <control id="controlid-1014">
@@ -2892,10 +2893,6 @@
                         <li>network redundancy</li>
                         <li>load balancing</li>
                         <li>PSTN failover.</li>
-                        <li>how to identify signs of a denial of service</li>
-                        <li>how to identify the source of a denial of service</li>
-                        <li>how capabilities can be maintained during a denial of service</li>
-                        <li>what actions can be taken to clear a denial of service.</li>
                     </ul>
                 </part>
                 <control id="controlid-1019">
@@ -2905,6 +2902,12 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>A denial of service response plan is developed and implemented that includes:</p>
+                        <ul>
+                            <li>how to identify signs of a denial of service</li>
+                            <li>how to identify the source of a denial of service</li>
+                            <li>how capabilities can be maintained during a denial of service</li>
+                            <li>what actions can be taken to clear a denial of service.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -3008,11 +3011,6 @@
                 <title>Connecting multifunction devices to computer networks</title>
                 <part name="guidance">
                     <p>As networked MFDs are considered to be devices that reside on a computer network, they should have the same security controls as other devices on the computer network.</p>
-                    <ul>
-                        <li>each MFD applies user identification, authentication and audit functions for all information communicated by that device</li>
-                        <li>security controls are of similar strength to those specified for workstations on that network</li>
-                        <li>each gateway can identify and filter information in accordance with the security controls for the export of data via a gateway.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0590">
                     <title>Control 0590</title>
@@ -3021,6 +3019,11 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>Where MFDs connected to computer networks have the ability to communicate via a gateway to another network:</p>
+                        <ul>
+                            <li>each MFD applies user identification, authentication and audit functions for all information communicated by that device</li>
+                            <li>security controls are of similar strength to those specified for workstations on that network</li>
+                            <li>each gateway can identify and filter information in accordance with the security controls for the export of data via a gateway.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -3500,18 +3503,6 @@
                 <title>Before travelling overseas with mobile devices</title>
                 <part name="guidance">
                     <p>Personnel travelling overseas with mobile devices face additional security risks compared to travelling domestically, especially when travelling to high/extreme risk countries. As such, appropriate precautions should be taken. Personnel should also be aware that when they leave Australian borders they also leave behind any expectations of privacy.</p>
-                    <ul>
-                        <li>issued with newly provisioned accounts and devices from a pool of dedicated travel devices which are used solely for work-related activities</li>
-                        <li>advised on how to apply and inspect tamper seals to key areas of devices</li>
-                        <li>advised to avoid taking any personal devices, especially if rooted or jailbroken.</li>
-                        <li>record all details of the devices being taken, such as product types, serial numbers and International Mobile Equipment Identity numbers</li>
-                        <li>update all applications and operating systems</li>
-                        <li>remove all non-essential accounts, applications and data</li>
-                        <li>apply security configuration settings, such as lock screens</li>
-                        <li>configure remote locate and wipe functionality</li>
-                        <li>enable encryption, including for any media used</li>
-                        <li>backup all important data and configuration settings.</li>
-                    </ul>
                 </part>
                 <control id="controlid-1298">
                     <title>Control 1298</title>
@@ -3529,6 +3520,11 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Oct-19</prop>
                     <part name="statement">
                         <p>If travelling overseas with mobile devices to high/extreme risk countries, personnel are:</p>
+                        <ul>
+                            <li>issued with newly provisioned accounts and devices from a pool of dedicated travel devices which are used solely for work-related activities</li>
+                            <li>advised on how to apply and inspect tamper seals to key areas of devices</li>
+                            <li>advised to avoid taking any personal devices, especially if rooted or jailbroken.</li>
+                        </ul>
                     </part>
                 </control>
                 <control id="controlid-1555">
@@ -3538,6 +3534,15 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Oct-19</prop>
                     <part name="statement">
                         <p>Before travelling overseas with mobile devices, personnel take the following actions:</p>
+                        <ul>
+                            <li>record all details of the devices being taken, such as product types, serial numbers and International Mobile Equipment Identity numbers</li>
+                            <li>update all applications and operating systems</li>
+                            <li>remove all non-essential accounts, applications and data</li>
+                            <li>apply security configuration settings, such as lock screens</li>
+                            <li>configure remote locate and wipe functionality</li>
+                            <li>enable encryption, including for any media used</li>
+                            <li>backup all important data and configuration settings.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -3545,24 +3550,6 @@
                 <title>While travelling overseas with mobile devices</title>
                 <part name="guidance">
                     <p>Personnel lose control of mobile devices and media any time they are not on their person. This includes when placing mobile devices and media in checked-in luggage or leaving them in hotel rooms (including hotel room safes). In addition, allowing untrusted people to access mobile devices provides an opportunity for them to be tampered with.</p>
-                    <ul>
-                        <li>never leaving devices or media unattended for any period of time, including by placing them in checked-in luggage or leaving them in hotel safes</li>
-                        <li>never storing credentials with devices that they grant access to, such as in laptop bags</li>
-                        <li>never lending devices to untrusted people, even if briefly</li>
-                        <li>never allowing untrusted people to connect other devices or media to their devices, including for charging</li>
-                        <li>never using designated charging stations, wall outlet charging ports or chargers supplied by untrusted people</li>
-                        <li>avoiding connecting devices to open or untrusted Wi-Fi networks</li>
-                        <li>using an approved Virtual Private Network to encrypt all device communications</li>
-                        <li>using encrypted mobile applications for communications instead of using foreign telecommunication networks</li>
-                        <li>disabling any communications capabilities of devices when not in use, such as cellular data, wireless, Bluetooth and Near Field Communication</li>
-                        <li>avoiding reuse of media once used with other parties’ devices or systems</li>
-                        <li>ensuring any media used for data transfers are thoroughly checked for malicious code beforehand</li>
-                        <li>never using any gifted devices, especially media, when travelling or upon returning from travelling.</li>
-                        <li>provide credentials, decrypt devices or have devices taken out of sight by foreign government officials</li>
-                        <li>have devices or media stolen that are later returned</li>
-                        <li>loose devices or media that are later found</li>
-                        <li>observe unusual behaviour of devices.</li>
-                    </ul>
                 </part>
                 <control id="controlid-1299">
                     <title>Control 1299</title>
@@ -3571,6 +3558,20 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Oct-19</prop>
                     <part name="statement">
                         <p>Personnel take the following precautions when travelling overseas with mobile devices:</p>
+                        <ul>
+                            <li>never leaving devices or media unattended for any period of time, including by placing them in checked-in luggage or leaving them in hotel safes</li>
+                            <li>never storing credentials with devices that they grant access to, such as in laptop bags</li>
+                            <li>never lending devices to untrusted people, even if briefly</li>
+                            <li>never allowing untrusted people to connect other devices or media to their devices, including for charging</li>
+                            <li>never using designated charging stations, wall outlet charging ports or chargers supplied by untrusted people</li>
+                            <li>avoiding connecting devices to open or untrusted Wi-Fi networks</li>
+                            <li>using an approved Virtual Private Network to encrypt all device communications</li>
+                            <li>using encrypted mobile applications for communications instead of using foreign telecommunication networks</li>
+                            <li>disabling any communications capabilities of devices when not in use, such as cellular data, wireless, Bluetooth and Near Field Communication</li>
+                            <li>avoiding reuse of media once used with other parties’ devices or systems</li>
+                            <li>ensuring any media used for data transfers are thoroughly checked for malicious code beforehand</li>
+                            <li>never using any gifted devices, especially media, when travelling or upon returning from travelling.</li>
+                        </ul>
                     </part>
                 </control>
                 <control id="controlid-1088">
@@ -3580,6 +3581,12 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Oct-19</prop>
                     <part name="statement">
                         <p>Personnel report the potential compromise of mobile devices, media or credentials to their organisation as soon as possible, especially if they:</p>
+                        <ul>
+                            <li>provide credentials, decrypt devices or have devices taken out of sight by foreign government officials</li>
+                            <li>have devices or media stolen that are later returned</li>
+                            <li>loose devices or media that are later found</li>
+                            <li>observe unusual behaviour of devices.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -3587,13 +3594,6 @@
                 <title>After travelling overseas with mobile devices</title>
                 <part name="guidance">
                     <p>Following overseas travel with mobile devices, personnel should take appropriate precautions to ensure that their devices don’t pose an undue security risk to their organisation’s systems and information. In most cases, sanitising and resetting mobile devices, including all media used with them, will be sufficient; however, upon returning from high/extreme risk countries, additional precautions will likely be needed.</p>
-                    <ul>
-                        <li>sanitise and reset devices, including all media used with them</li>
-                        <li>decommission any physical credentials that left their possession during their travel</li>
-                        <li>report if significant doubt exists as to the integrity of any devices following their travel.</li>
-                        <li>reset user credentials used with devices, including those used for remote access to their organisation’s systems</li>
-                        <li>monitor accounts for any indicators of compromise, such as failed login attempts.</li>
-                    </ul>
                 </part>
                 <control id="controlid-1300">
                     <title>Control 1300</title>
@@ -3602,6 +3602,11 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Oct-19</prop>
                     <part name="statement">
                         <p>Upon returning from travelling overseas with mobile devices, personnel take the following actions:</p>
+                        <ul>
+                            <li>sanitise and reset devices, including all media used with them</li>
+                            <li>decommission any physical credentials that left their possession during their travel</li>
+                            <li>report if significant doubt exists as to the integrity of any devices following their travel.</li>
+                        </ul>
                     </part>
                 </control>
                 <control id="controlid-1556">
@@ -3611,6 +3616,10 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Oct-19</prop>
                     <part name="statement">
                         <p>If returning from travelling overseas with mobile devices to high/extreme risk countries, personnel take the following additional actions:</p>
+                        <ul>
+                            <li>reset user credentials used with devices, including those used for remote access to their organisation’s systems</li>
+                            <li>monitor accounts for any indicators of compromise, such as failed login attempts.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -3929,13 +3938,6 @@
                 </part>
                 <part name="guidance">
                     <p>Organisations choosing to use uncleared technicians to maintain or repair ICT equipment should be aware of the requirement for cleared personnel to escort uncleared technicians during maintenance or repair activities.</p>
-                    <ul>
-                        <li>is appropriately cleared and briefed</li>
-                        <li>takes due care to ensure that information is not disclosed</li>
-                        <li>takes all responsible measures to ensure the integrity of the ICT equipment</li>
-                        <li>has the authority to direct the technician</li>
-                        <li>is sufficiently familiar with the ICT equipment to understand the work being performed.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0305">
                     <title>Control 0305</title>
@@ -3962,6 +3964,13 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>If an uncleared technician is used to undertake maintenance or repairs of ICT equipment, the technician is escorted by someone who:</p>
+                        <ul>
+                            <li>is appropriately cleared and briefed</li>
+                            <li>takes due care to ensure that information is not disclosed</li>
+                            <li>takes all responsible measures to ensure the integrity of the ICT equipment</li>
+                            <li>has the authority to direct the technician</li>
+                            <li>is sufficiently familiar with the ICT equipment to understand the work being performed.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -4209,11 +4218,6 @@
                 <title>Sanitising network devices</title>
                 <part name="guidance">
                     <p>Routers, switches, network interface cards and firewalls contain memory that is used in their operation. This memory can often retain network configuration information such as passwords, encryption keys and certificates. The correct method to sanitise a network device will depend on the configuration of the device and the type of memory within the device. Device-specific guidance provided by the ACSC, or vendor sanitisation guidance, should be consulted to determine the most appropriate method to remove information from a network device’s memory.</p>
-                    <ul>
-                        <li>following device-specific guidance provided by the ACSC</li>
-                        <li>following vendor sanitisation guidance</li>
-                        <li>loading a dummy configuration file, performing a factory reset and then reinstalling firmware.</li>
-                    </ul>
                 </part>
                 <control id="controlid-1223">
                     <title>Control 1223</title>
@@ -4222,6 +4226,11 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Nov-19</prop>
                     <part name="statement">
                         <p>Memory in network devices is sanitised using the following processes, in order of preference:</p>
+                        <ul>
+                            <li>following device-specific guidance provided by the ACSC</li>
+                            <li>following vendor sanitisation guidance</li>
+                            <li>loading a dummy configuration file, performing a factory reset and then reinstalling firmware.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -4797,14 +4806,6 @@
                 <title>Media that cannot be sanitised</title>
                 <part name="guidance">
                     <p>It is not possible to sanitise some types of media while maintaining a level of assurance that no information can be recovered.</p>
-                    <ul>
-                        <li>microfiche and microfilm</li>
-                        <li>optical discs</li>
-                        <li>programmable read-only memory</li>
-                        <li>read-only memory</li>
-                        <li>other types of media that cannot be sanitised</li>
-                        <li>faulty media that cannot be successfully sanitised.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0350">
                     <title>Control 0350</title>
@@ -4813,6 +4814,14 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>The following media types are destroyed prior to disposal as they cannot be sanitised:</p>
+                        <ul>
+                            <li>microfiche and microfilm</li>
+                            <li>optical discs</li>
+                            <li>programmable read-only memory</li>
+                            <li>read-only memory</li>
+                            <li>other types of media that cannot be sanitised</li>
+                            <li>faulty media that cannot be successfully sanitised.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -5434,12 +5443,6 @@
                 <title>Antivirus software</title>
                 <part name="guidance">
                     <p>When vendors develop software they may not use secure coding practices. An adversary can take advantage of this by developing malicious code to exploit security vulnerabilities that have not been detected and remedied. As significant time and effort is often involved in developing functioning and reliable exploits, an adversary will often reuse their exploits as much as possible. While exploits may be profiled by antivirus vendors, they often remain a variable intrusion method in organisations that do not have any measures in place to detect them.</p>
-                    <ul>
-                        <li>signature-based detection enabled and set to a high level</li>
-                        <li>heuristic-based detection enabled and set to a high level</li>
-                        <li>detection signatures checked for currency and updated on at least a daily basis</li>
-                        <li>automatic and regular scanning configured for all fixed disks and removable media.</li>
-                    </ul>
                 </part>
                 <control id="controlid-1417">
                     <title>Control 1417</title>
@@ -5448,6 +5451,12 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>Antivirus software is implemented on workstations and servers and configured with:</p>
+                        <ul>
+                            <li>signature-based detection enabled and set to a high level</li>
+                            <li>heuristic-based detection enabled and set to a high level</li>
+                            <li>detection signatures checked for currency and updated on at least a daily basis</li>
+                            <li>automatic and regular scanning configured for all fixed disks and removable media.</li>
+                        </ul>
                     </part>
                 </control>
                 <control id="controlid-1390">
@@ -5822,11 +5831,6 @@
                 </part>
                 <part name="guidance">
                     <p>In order to reduce this security risk, organisations should implement multi-factor authentication. Note, while single-factor authentication is no longer considered suitable for protecting sensitive or classified information, it may not be possible to implement on some systems. In such cases, organisations will need to increase the time on average it takes an adversary to compromise a password/passphrase by introducing complexity and continuing to increase its length over time. Such increases in length can be balanced against useability through the use of passphrases rather than passwords. In cases where systems don’t support passphrases, and as an absolute last resort, the strongest password length and complexity supported by a system will need to be implemented.</p>
-                    <ul>
-                        <li>are not constructed from song lyrics, movies, literature or any other publically available material</li>
-                        <li>do not form a real sentence in a natural language</li>
-                        <li>are not a list of categorised words.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0417">
                     <title>Control 0417</title>
@@ -5871,6 +5875,11 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Oct-19</prop>
                     <part name="statement">
                         <p>Passphrases used for single-factor authentication:</p>
+                        <ul>
+                            <li>are not constructed from song lyrics, movies, literature or any other publically available material</li>
+                            <li>do not form a real sentence in a natural language</li>
+                            <li>are not a list of categorised words.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -5955,13 +5964,6 @@
                 </part>
                 <part name="guidance">
                     <p>In addition, secure transmission of credentials reduces the likelihood of an adversary intercepting and using such information to access a system under the guise of a valid user.</p>
-                    <ul>
-                        <li>passwords/passphrases expire every 12 months</li>
-                        <li>passwords/passphrases are stored as salted hashes</li>
-                        <li>password/passphrase stretching is implemented</li>
-                        <li>password/passwords appearing in breach databases are blacklisted</li>
-                        <li>passwords/passphrases are never sent in the clear across networks.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0418">
                     <title>Control 0418</title>
@@ -5979,6 +5981,13 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Oct-19</prop>
                     <part name="statement">
                         <p>Credentials are protected by ensuring:</p>
+                        <ul>
+                            <li>passwords/passphrases expire every 12 months</li>
+                            <li>passwords/passphrases are stored as salted hashes</li>
+                            <li>password/passphrase stretching is implemented</li>
+                            <li>password/passwords appearing in breach databases are blacklisted</li>
+                            <li>passwords/passphrases are never sent in the clear across networks.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -5986,13 +5995,6 @@
                 <title>Session and screen locking</title>
                 <part name="guidance">
                     <p>Session and screen locking prevents unauthorised access to a system which a user has already been authenticated to access.</p>
-                    <ul>
-                        <li>activates after a maximum of 15 minutes of user inactivity or if manually activated by the user</li>
-                        <li>completely conceals all information on the screen</li>
-                        <li>ensures that the screen does not enter a power saving state before the screen or session lock is activated</li>
-                        <li>requires the user to reauthenticate to unlock the system</li>
-                        <li>denies users the ability to disable the session or screen locking mechanism.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0428">
                     <title>Control 0428</title>
@@ -6001,6 +6003,13 @@
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>Systems are configured with a session or screen lock that:</p>
+                        <ul>
+                            <li>activates after a maximum of 15 minutes of user inactivity or if manually activated by the user</li>
+                            <li>completely conceals all information on the screen</li>
+                            <li>ensures that the screen does not enter a power saving state before the screen or session lock is activated</li>
+                            <li>requires the user to reauthenticate to unlock the system</li>
+                            <li>denies users the ability to disable the session or screen locking mechanism.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -6568,12 +6577,6 @@ Used for authentication to jump server(s)</td>
                 </part>
                 <part name="guidance">
                     <p>In implementing changes to systems, it is important that change management procedures clearly articulate the steps to be taken for each part of the change management process.</p>
-                    <ul>
-                        <li>identification and documentation of requests for change</li>
-                        <li>approval required for changes to be made</li>
-                        <li>implementation and testing of approved changes</li>
-                        <li>the maintenance of system and security documentation.</li>
-                    </ul>
                 </part>
                 <control id="controlid-1211">
                     <title>Control 1211</title>
@@ -6582,6 +6585,12 @@ Used for authentication to jump server(s)</td>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Aug-19</prop>
                     <part name="statement">
                         <p>A change management process, and supporting change management procedures, is developed and implemented covering:</p>
+                        <ul>
+                            <li>identification and documentation of requests for change</li>
+                            <li>approval required for changes to be made</li>
+                            <li>implementation and testing of approved changes</li>
+                            <li>the maintenance of system and security documentation.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -6773,37 +6782,6 @@ Used for authentication to jump server(s)</td>
                 <title>Events to be logged</title>
                 <part name="guidance">
                     <p>The following list of events can assist in monitoring the security posture of systems, detecting malicious behaviour and contributing to investigations following cyber security incidents.</p>
-                    <ul>
-                        <li>access to important data and processes</li>
-                        <li>application crashes and any error messages</li>
-                        <li>attempts to use special privileges</li>
-                        <li>changes to accounts</li>
-                        <li>changes to security policy</li>
-                        <li>changes to system configurations</li>
-                        <li>Domain Name System (DNS) and Hypertext Transfer Protocol requests</li>
-                        <li>failed attempts to access data and system resources</li>
-                        <li>service failures and restarts</li>
-                        <li>system startup and shutdown</li>
-                        <li>transfer of data to external media</li>
-                        <li>user or group management</li>
-                        <li>use of special privileges.</li>
-                        <li>attempted access that is denied</li>
-                        <li>crashes and any error messages</li>
-                        <li>search queries initiated by users.</li>
-                        <li>access to particularly important information</li>
-                        <li>addition of new users, especially privileged users</li>
-                        <li>any query containing comments</li>
-                        <li>any query containing multiple embedded queries</li>
-                        <li>any query or database alerts or failures</li>
-                        <li>attempts to elevate privileges</li>
-                        <li>attempted access that is successful or unsuccessful</li>
-                        <li>changes to the database structure</li>
-                        <li>changes to user roles or database permissions</li>
-                        <li>database administrator actions</li>
-                        <li>database logons and logoffs</li>
-                        <li>modifications to data</li>
-                        <li>use of executable commands.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0584">
                     <title>Control 0584</title>
@@ -6821,6 +6799,21 @@ Used for authentication to jump server(s)</td>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>The following events are logged for operating systems:</p>
+                        <ul>
+                            <li>access to important data and processes</li>
+                            <li>application crashes and any error messages</li>
+                            <li>attempts to use special privileges</li>
+                            <li>changes to accounts</li>
+                            <li>changes to security policy</li>
+                            <li>changes to system configurations</li>
+                            <li>Domain Name System (DNS) and Hypertext Transfer Protocol requests</li>
+                            <li>failed attempts to access data and system resources</li>
+                            <li>service failures and restarts</li>
+                            <li>system startup and shutdown</li>
+                            <li>transfer of data to external media</li>
+                            <li>user or group management</li>
+                            <li>use of special privileges.</li>
+                        </ul>
                     </part>
                 </control>
                 <control id="controlid-1536">
@@ -6830,6 +6823,11 @@ Used for authentication to jump server(s)</td>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>The following events are logged for web applications:</p>
+                        <ul>
+                            <li>attempted access that is denied</li>
+                            <li>crashes and any error messages</li>
+                            <li>search queries initiated by users.</li>
+                        </ul>
                     </part>
                 </control>
                 <control id="controlid-1537">
@@ -6839,6 +6837,21 @@ Used for authentication to jump server(s)</td>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>The following events are logged for databases:</p>
+                        <ul>
+                            <li>access to particularly important information</li>
+                            <li>addition of new users, especially privileged users</li>
+                            <li>any query containing comments</li>
+                            <li>any query containing multiple embedded queries</li>
+                            <li>any query or database alerts or failures</li>
+                            <li>attempts to elevate privileges</li>
+                            <li>attempted access that is successful or unsuccessful</li>
+                            <li>changes to the database structure</li>
+                            <li>changes to user roles or database permissions</li>
+                            <li>database administrator actions</li>
+                            <li>database logons and logoffs</li>
+                            <li>modifications to data</li>
+                            <li>use of executable commands.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -6939,11 +6952,6 @@ Used for authentication to jump server(s)</td>
                 <title>Vulnerability management policy</title>
                 <part name="guidance">
                     <p>Vulnerability management activities can assist organisations to be proactive in identifying, prioritising and responding to security vulnerabilities. Measures to monitor and manage security vulnerabilities in systems can also provide organisations with a wealth of valuable information about their exposure to cyber threats, as well as assisting them to determine security risks associated with the operation of systems. Undertaking regular vulnerability management activities is important as cyber threats will change over time.</p>
-                    <ul>
-                        <li>conducting vulnerability assessments and penetration tests for systems throughout their life cycle to identify security vulnerabilities</li>
-                        <li>analysing identified security vulnerabilities to determine their potential impact and appropriate mitigations based on effectiveness, cost and existing security controls</li>
-                        <li>using a risk-based approach to prioritise the implementation of identified mitigations.</li>
-                    </ul>
                 </part>
                 <control id="controlid-1163">
                     <title>Control 1163</title>
@@ -6952,6 +6960,11 @@ Used for authentication to jump server(s)</td>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Aug-19</prop>
                     <part name="statement">
                         <p>A vulnerability management policy is developed and implemented that includes:</p>
+                        <ul>
+                            <li>conducting vulnerability assessments and penetration tests for systems throughout their life cycle to identify security vulnerabilities</li>
+                            <li>analysing identified security vulnerabilities to determine their potential impact and appropriate mitigations based on effectiveness, cost and existing security controls</li>
+                            <li>using a risk-based approach to prioritise the implementation of identified mitigations.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -8305,13 +8318,6 @@ Used for authentication to jump server(s)</td>
                 </part>
                 <part name="guidance">
                     <p>An adversary who has compromised a single computing environment, or who legitimately controls a single computing environment, might exploit a misconfiguration or security vulnerability in the isolation mechanism to compromise other computing environments on the same physical server, or compromise the underlying operating system of the physical server.</p>
-                    <ul>
-                        <li>the isolation mechanism is from a vendor that uses secure coding practices and, when security vulnerabilities have been identified, develops and distributes patches in a timely manner</li>
-                        <li>the configuration of the isolation mechanism is hardened by removing unneeded functionality and restricting access to the administrative interface used to manage the isolation mechanism</li>
-                        <li>the underlying operating system running on the server is hardened</li>
-                        <li>patches are applied to the isolation mechanism and underlying operating system in a timely manner</li>
-                        <li>integrity and log monitoring are performed for the isolation mechanism and underlying operating system in a timely manner.</li>
-                    </ul>
                 </part>
                 <control id="controlid-1460">
                     <title>Control 1460</title>
@@ -8320,6 +8326,13 @@ Used for authentication to jump server(s)</td>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>When using a software-based isolation mechanism to share a physical server’s hardware:</p>
+                        <ul>
+                            <li>the isolation mechanism is from a vendor that uses secure coding practices and, when security vulnerabilities have been identified, develops and distributes patches in a timely manner</li>
+                            <li>the configuration of the isolation mechanism is hardened by removing unneeded functionality and restricting access to the administrative interface used to manage the isolation mechanism</li>
+                            <li>the underlying operating system running on the server is hardened</li>
+                            <li>patches are applied to the isolation mechanism and underlying operating system in a timely manner</li>
+                            <li>integrity and log monitoring are performed for the isolation mechanism and underlying operating system in a timely manner.</li>
+                        </ul>
                     </part>
                 </control>
                 <control id="controlid-1462">
@@ -8800,13 +8813,6 @@ Used for authentication to jump server(s)</td>
                 <title>Service provider denial of service strategies</title>
                 <part name="guidance">
                     <p>The volume of network traffic that can be achieved by an adversary using a botnet or an amplification-based denial-of-service attack can overwhelm the bandwidth of an organisation’s internet connection. Assistance from service providers who have the ability to block network traffic upstream from a targeted service or organisation is essential.</p>
-                    <ul>
-                        <li>their capacity to withstand denial-of-service attacks</li>
-                        <li>any costs likely to be incurred by customers resulting from denial-of-service attacks</li>
-                        <li>thresholds for notifying customers or turning off their online services during denial-of-service attacks</li>
-                        <li>pre-approved actions that can be undertaken during denial-of-service attacks</li>
-                        <li>denial-of-service attack prevention arrangements with upstream providers to block malicious traffic as far upstream as possible.</li>
-                    </ul>
                 </part>
                 <control id="controlid-1431">
                     <title>Control 1431</title>
@@ -8815,6 +8821,13 @@ Used for authentication to jump server(s)</td>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>Denial-of-service attack prevention and mitigation strategies are discussed with service providers, specifically:</p>
+                        <ul>
+                            <li>their capacity to withstand denial-of-service attacks</li>
+                            <li>any costs likely to be incurred by customers resulting from denial-of-service attacks</li>
+                            <li>thresholds for notifying customers or turning off their online services during denial-of-service attacks</li>
+                            <li>pre-approved actions that can be undertaken during denial-of-service attacks</li>
+                            <li>denial-of-service attack prevention arrangements with upstream providers to block malicious traffic as far upstream as possible.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -9851,13 +9864,6 @@ or larger</td>
                 </part>
                 <part name="guidance">
                     <p>To assist in mitigating these security risks, it is essential that the ‘forced command’ option is used to specify what command is executed and parameter checked is enabled.</p>
-                    <ul>
-                        <li>access from IP addresses that do not require access</li>
-                        <li>port forwarding</li>
-                        <li>agent credential forwarding</li>
-                        <li>X11 display remoting</li>
-                        <li>console access.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0487">
                     <title>Control 0487</title>
@@ -9866,6 +9872,13 @@ or larger</td>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>When using logins without a passphrase for automated purposes, the following are disabled:</p>
+                        <ul>
+                            <li>access from IP addresses that do not require access</li>
+                            <li>port forwarding</li>
+                            <li>agent credential forwarding</li>
+                            <li>X11 display remoting</li>
+                            <li>console access.</li>
+                        </ul>
                     </part>
                 </control>
                 <control id="controlid-0488">
@@ -10227,13 +10240,6 @@ or larger</td>
                 <title>Gateway architecture and configuration</title>
                 <part name="guidance">
                     <p>Gateways are necessary to control data flows between security domains and prevent unauthorised access from external networks. Given the criticality of gateways in controlling the flow of information between security domains, any failure, particularly at higher classifications, may have serious consequences. As such, robust mechanisms for alerting personnel to situations that may cause cyber security incidents are especially important for gateways.</p>
-                    <ul>
-                        <li>are the only communications paths into and out of internal networks</li>
-                        <li>allow only explicitly authorised connections</li>
-                        <li>are managed via a secure path isolated from all connected networks (physically at the gateway or on a dedicated administration network)</li>
-                        <li>are protected by authentication, logging and auditing of all physical and logical access to gateway components</li>
-                        <li>have all security controls tested to verify their effectiveness after any changes to their configuration.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0628">
                     <title>Control 0628</title>
@@ -10260,6 +10266,13 @@ or larger</td>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Jun-19</prop>
                     <part name="statement">
                         <p>Gateways:</p>
+                        <ul>
+                            <li>are the only communications paths into and out of internal networks</li>
+                            <li>allow only explicitly authorised connections</li>
+                            <li>are managed via a secure path isolated from all connected networks (physically at the gateway or on a dedicated administration network)</li>
+                            <li>are protected by authentication, logging and auditing of all physical and logical access to gateway components</li>
+                            <li>have all security controls tested to verify their effectiveness after any changes to their configuration.</li>
+                        </ul>
                     </part>
                 </control>
                 <control id="controlid-1427">
@@ -10276,12 +10289,6 @@ or larger</td>
                 <title>Gateway operation</title>
                 <part name="guidance">
                     <p>Implementing logging and alerting capabilities for gateways can assist in detecting cyber security incidents, attempted intrusions and unusual usage patterns. In addition, storing event logs on a separate secure log server increases the difficulty for an adversary to delete logging information in order to destroy evidence of a targeted cyber intrusion.</p>
-                    <ul>
-                        <li>log network traffic permitted through the gateway</li>
-                        <li>log network traffic attempting to leave the gateway</li>
-                        <li>are configured to save event logs to a secure logging facility</li>
-                        <li>provide real-time alerts for any cyber security incidents, attempted intrusions and unusual usage patterns.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0634">
                     <title>Control 0634</title>
@@ -10290,6 +10297,12 @@ or larger</td>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Jun-19</prop>
                     <part name="statement">
                         <p>All gateways connecting networks in different security domains are operated such that they:</p>
+                        <ul>
+                            <li>log network traffic permitted through the gateway</li>
+                            <li>log network traffic attempting to leave the gateway</li>
+                            <li>are configured to save event logs to a secure logging facility</li>
+                            <li>provide real-time alerts for any cyber security incidents, attempted intrusions and unusual usage patterns.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -10919,13 +10932,6 @@ or larger</td>
                 <title>Web proxies</title>
                 <part name="guidance">
                     <p>Web proxies are a key component in detecting and responding to cyber security incidents. Thorough web proxy logs are also valuable in responding to user violation of web usage policies.</p>
-                    <ul>
-                        <li>address (uniform resource locator)</li>
-                        <li>time/date</li>
-                        <li>user</li>
-                        <li>amount of data uploaded and downloaded</li>
-                        <li>internal and external IP addresses.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0260">
                     <title>Control 0260</title>
@@ -10943,6 +10949,13 @@ or larger</td>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>A web proxy authenticates users and provides logging that includes the following details about websites accessed:</p>
+                        <ul>
+                            <li>address (uniform resource locator)</li>
+                            <li>time/date</li>
+                            <li>user</li>
+                            <li>amount of data uploaded and downloaded</li>
+                            <li>internal and external IP addresses.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -10950,10 +10963,6 @@ or larger</td>
                 <title>Transport Layer Security filtering</title>
                 <part name="guidance">
                     <p>Since Transport Layer Security (TLS) web traffic travelling over Hypertext Transfer Protocol Secure connections can deliver content without any filtering, organisations can reduce this security risk by using TLS inspection. In doing so, organisations may choose to allow websites that have a low risk of delivering malicious code and have a high privacy requirement, such as internet banking websites, to continue using end-to-end TLS encryption.</p>
-                    <ul>
-                        <li>a solution that decrypts and inspects TLS traffic as per content filtering security controls</li>
-                        <li>a whitelist specifying the addresses (uniform resource locators) to which encrypted connections are permitted, with all other addresses blocked or decrypted and inspected as per content filtering security controls.</li>
-                    </ul>
                 </part>
                 <control id="controlid-0263">
                     <title>Control 0263</title>
@@ -10962,6 +10971,10 @@ or larger</td>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>If permitting TLS through internet gateways, either of the following approaches is implemented:</p>
+                        <ul>
+                            <li>a solution that decrypts and inspects TLS traffic as per content filtering security controls</li>
+                            <li>a whitelist specifying the addresses (uniform resource locators) to which encrypted connections are permitted, with all other addresses blocked or decrypted and inspected as per content filtering security controls.</li>
+                        </ul>
                     </part>
                 </control>
             </group>
@@ -11291,13 +11304,6 @@ or larger</td>
                 <title>Export of data</title>
                 <part name="guidance">
                     <p>When data is exported between systems, the classification should be assessed to determine if the export is permitted. Thorough inspection, including protective marking checks, can reduce the likelihood of data being transferred to a system that is not authorised to handle it or into the public domain.</p>
-                    <ul>
-                        <li>protective marking checks</li>
-                        <li>data format checks and logging</li>
-                        <li>monitoring to detect overuse/unusual usage patterns</li>
-                        <li>limitations on data types and sizes</li>
-                        <li>keyword searches on all textual data.</li>
-                    </ul>
                 </part>
                 <control id="controlid-1187">
                     <title>Control 1187</title>
@@ -11315,6 +11321,13 @@ or larger</td>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
                         <p>When exporting data, the following activities are undertaken:</p>
+                        <ul>
+                            <li>protective marking checks</li>
+                            <li>data format checks and logging</li>
+                            <li>monitoring to detect overuse/unusual usage patterns</li>
+                            <li>limitations on data types and sizes</li>
+                            <li>keyword searches on all textual data.</li>
+                        </ul>
                     </part>
                 </control>
             </group>

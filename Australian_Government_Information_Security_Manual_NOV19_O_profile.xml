@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<profile xmlns="http://csrc.nist.gov/ns/oscal/1.0" id="uuid-283c3480-cf3d-42c4-844c-3e104df4adc3">
+<profile xmlns="http://csrc.nist.gov/ns/oscal/1.0" id="uuid-3d757cd0-7cec-4a9d-ad22-2f66cbb858d5">
     <metadata>
         <title>Australian Government Information Security Manual O Profile</title>
-        <last-modified>2019-11-28T09:07:04.295Z</last-modified>
+        <last-modified>2019-11-29T00:15:20.899Z</last-modified>
         <version>NOV19</version>
         <oscal-version>1.0.0-milestone2</oscal-version>
     </metadata>
