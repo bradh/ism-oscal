@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0" id="uuid-cb8aa123-a7d0-4da5-9b06-b0b441dc16f4">
+<catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0" id="uuid-7ca212df-6e1b-49c4-8477-f84acf82d536">
     <metadata>
         <title>Australian Government Information Security Manual</title>
-        <last-modified>2019-12-01T00:44:12.210Z</last-modified>
+        <last-modified>2019-12-01T01:41:11.928Z</last-modified>
         <version>NOV19</version>
         <oscal-version>1.0.0-milestone2</oscal-version>
     </metadata>
@@ -6985,8 +6985,7 @@ Used for authentication to jump server(s)</td>
                     <prop name="Revision" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">6</prop>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
-                        <p>Vulnerability assessments and penetration tests are conducted by suitably skilled personnel before a system is deployed, after a significant change to a system, and at least annually or as specified by the system owner.
-</p>
+                        <p>Vulnerability assessments and penetration tests are conducted by suitably skilled personnel before a system is deployed, after a significant change to a system, and at least annually or as specified by the system owner.</p>
                     </part>
                 </control>
             </group>
@@ -8968,8 +8967,7 @@ Used for authentication to jump server(s)</td>
                     <prop name="Revision" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">1</prop>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
-                        <p>Where a requirement for high availability exists for online services, a denial of service mitigation service is used.
-</p>
+                        <p>Where a requirement for high availability exists for online services, a denial of service mitigation service is used.</p>
                     </part>
                 </control>
             </group>
@@ -11729,8 +11727,7 @@ or larger</td>
                     <prop name="Revision" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">1</prop>
                     <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
                     <part name="statement">
-                        <p>All encrypted content, traffic and data is decrypted and inspected to allow content filtering.
-</p>
+                        <p>All encrypted content, traffic and data is decrypted and inspected to allow content filtering.</p>
                     </part>
                 </control>
             </group>
