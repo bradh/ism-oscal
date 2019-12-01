@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0" id="uuid-ef1e33d0-1a35-476b-b26c-a5aab68dc0b4">
+<catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0" id="uuid-cb8aa123-a7d0-4da5-9b06-b0b441dc16f4">
     <metadata>
         <title>Australian Government Information Security Manual</title>
-        <last-modified>2019-11-29T00:15:20.879Z</last-modified>
+        <last-modified>2019-12-01T00:44:12.210Z</last-modified>
         <version>NOV19</version>
         <oscal-version>1.0.0-milestone2</oscal-version>
     </metadata>
@@ -11722,6 +11722,27 @@ or larger</td>
                 </part>
                 <part name="guidance">
                     <p>Where a business need to preserve the confidentiality of encrypted data exists, an organisation may consider a dedicated system to allow encrypted content through external, boundary or perimeter controls to be decrypted in an appropriately secure environment, in which case the content should be subject to all applicable content filtering controls after it has been decrypted.</p>
+                </part>
+                <control id="controlid-1293">
+                    <title>Control 1293</title>
+                    <prop name="label">1293</prop>
+                    <prop name="Revision" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">1</prop>
+                    <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
+                    <part name="statement">
+                        <p>All encrypted content, traffic and data is decrypted and inspected to allow content filtering.
+</p>
+                    </part>
+                </control>
+            </group>
+        </group>
+    </group>
+    <group>
+        <title>Cyber Security Terminology</title>
+        <group>
+            <title>Glossary of abbreviations</title>
+            <group>
+                <title>Glossary of abbreviations</title>
+                <part name="guidance">
                     <table>
                         <tr>
                             <th>Abbreviation</th>
@@ -12172,6 +12193,14 @@ or larger</td>
                             <td>Extensible Markup Language</td>
                         </tr>
                     </table>
+                </part>
+            </group>
+        </group>
+        <group>
+            <title>Glossary of cyber security terms</title>
+            <group>
+                <title>Glossary of cyber security terms</title>
+                <part name="guidance">
                     <table>
                         <tr>
                             <th>Term</th>
@@ -12991,31 +13020,6 @@ or larger</td>
                         </tr>
                     </table>
                 </part>
-                <control id="controlid-1293">
-                    <title>Control 1293</title>
-                    <prop name="label">1293</prop>
-                    <prop name="Revision" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">1</prop>
-                    <prop name="Updated" ns="urn:uuid:5dab2ee4-11be-11ea-865a-672481b505d3">Sep-18</prop>
-                    <part name="statement">
-                        <p>All encrypted content, traffic and data is decrypted and inspected to allow content filtering.
-</p>
-                    </part>
-                </control>
-            </group>
-        </group>
-    </group>
-    <group>
-        <title>Cyber Security Terminology</title>
-        <group>
-            <title>Glossary of abbreviations</title>
-            <group>
-                <title>Glossary of abbreviations</title>
-            </group>
-        </group>
-        <group>
-            <title>Glossary of cyber security terms</title>
-            <group>
-                <title>Glossary of cyber security terms</title>
             </group>
         </group>
     </group>
