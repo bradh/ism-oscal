@@ -18,7 +18,7 @@
             <description>
                 <p>Director General Information Security Branch (DGISB) is appointed as Chief Information Security Officer (CISO) for the Department of Example. As the CISO, DGISB provides cyber security leadership for whole of Department of Example.</p>
             </description>
-            <can-meet-requirement-set source="Australian_Government_Information_Security_Manual_NOV19_catalog.xml">
+            <can-meet-requirement-set source="../../Australian_Government_Information_Security_Manual_NOV19_catalog.xml">
                 <description>
                     <p>What goes here?</p>
                 </description>
@@ -38,7 +38,7 @@
             <description>
                 <p>As the CISO, Director General Information Security Branch (DGISB) provides strategic-level guidance for the Department of Example’s cyber security program and ensures the Department of Example’s compliance with cyber security policy, standards, regulations and legislation.</p>
             </description>
-            <can-meet-requirement-set source="Australian_Government_Information_Security_Manual_NOV19_catalog.xml">
+            <can-meet-requirement-set source="../../Australian_Government_Information_Security_Manual_NOV19_catalog.xml">
                 <description>
                     <!-- Q: Is a mandatory description of the set really warranted? -->
                     <p>What goes here?</p>
