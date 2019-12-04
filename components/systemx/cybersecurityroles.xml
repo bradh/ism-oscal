@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<component-definition xmlns="http://csrc.nist.gov/ns/oscal/1.0">
+    <metadata>
+        <title>Cyber Security Roles for System X</title>
+        <last-modified>2019-12-06T05:15:11.928Z</last-modified>
+        <version>Draft A</version>
+        <oscal-version>1.0.0-milestone2</oscal-version>
+        <prop name="marking" ns="fedramp">UNCLAS</prop>
+    </metadata>
+    <!-- Q: Do we really need to specify the scheme here? -->
+    <import-component-definition href="file:../organisation/cybersecurityroles.xml"/>
+    <capability id="cybersecurityroles-systemx" name="Cyber Security Roles">
+        <description>
+            <p>Cyber Security Roles</p>
+        </description>
+        <incorporates-capability capability-id="cybersecurityroles">
+            <description>
+                <p>Cyber Security Roles for System X are the same as (inherited from) existing cyber security roles defined for Department of Example. The ICT Security needs for System X are well within the existing role arrangements, and no changes to those cyber security roles are required as a result of System X.</p>
+            </description>
+        </incorporates-capability>
+    </capability>
+
+    <back-matter>
+    </back-matter>
+</component-definition>

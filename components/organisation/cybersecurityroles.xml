@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<component-definition xmlns="http://csrc.nist.gov/ns/oscal/1.0">
+    <metadata>
+        <title>Organisational Cyber Security Roles</title>
+        <last-modified>2019-12-06T03:59:11.928Z</last-modified>
+        <version>Draft A</version>
+        <oscal-version>1.0.0-milestone2</oscal-version>
+        <prop name="marking" ns="fedramp">UNCLAS</prop>
+    </metadata>
+
+    <component id="ciso-appointment" name="CISO Appointment" component-type="policy">
+        <title>Chief Information Security Officer (CISO) Appointment</title>
+        <description>
+            <!-- Q: Is a mandatory description of the component really warranted? -->
+            <p>What goes here?</p>
+        </description>
+        <control-implementation>
+            <description>
+                <p>Director General Information Security Branch (DGISB) is appointed as Chief Information Security Officer (CISO) for the Department of Example. As the CISO, DGISB provides cyber security leadership for whole of Department of Example.</p>
+            </description>
+            <can-meet-requirement-set source="Australian_Government_Information_Security_Manual_NOV19_catalog.xml">
+                <description>
+                    <p>What goes here?</p>
+                </description>
+                <implemented-requirement control-id="controlid-0714">
+                    <link href="ciso_appointment_letter.pdf" media-type="application/pdf">DGISB CISO Appointment Letter</link>
+                </implemented-requirement>
+            </can-meet-requirement-set>
+        </control-implementation>
+    </component>
+
+    <component id="ciso-responsibilities" name="CISO Responsibilities" component-type="policy">
+        <title>Chief Information Security Officer (CISO) Responsibilities</title>
+        <description>
+            <p>What goes here?</p>
+        </description>
+        <control-implementation>
+            <description>
+                <p>As the CISO, Director General Information Security Branch (DGISB) provides strategic-level guidance for the Department of Example’s cyber security program and ensures the Department of Example’s compliance with cyber security policy, standards, regulations and legislation.</p>
+            </description>
+            <can-meet-requirement-set source="Australian_Government_Information_Security_Manual_NOV19_catalog.xml">
+                <description>
+                    <!-- Q: Is a mandatory description of the set really warranted? -->
+                    <p>What goes here?</p>
+                </description>
+                <implemented-requirement control-id="controlid-1478">
+                    <link href="ciso_responsibilities.pdf" media-type="application/pdf">DGISB CISO Duty statement</link>
+                </implemented-requirement>
+            </can-meet-requirement-set>
+        </control-implementation>
+    </component>
+
+    <capability id="ciso" name="Chief Information Security Officer">
+        <description>
+            <p>Chief Information Security Officer (CISO)</p>
+        </description>
+        <incorporates-component component-id="ciso-appointment">
+            <description>
+                <!-- Q: Is a mandatory description of the incorporation really warranted? -->
+                <p>What goes here?</p>
+            </description>
+        </incorporates-component>
+        <incorporates-component component-id="ciso-responsibilities">
+            <description>
+                <p>What goes here?</p>
+            </description>
+        </incorporates-component>
+    </capability>
+
+    <capability id="cybersecurityroles" name="Cyber Security Roles">
+        <description>
+            <p>Cyber Security Roles</p>
+        </description>
+        <incorporates-capability capability-id="ciso">
+            <description>
+                <p>What goes here?</p>
+            </description>
+        </incorporates-capability>
+        <!-- TODO: System Owners -->
+    </capability>
+
+    <back-matter>
+    </back-matter>
+</component-definition>

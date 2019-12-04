@@ -14,3 +14,10 @@ do
   echo "Validating profile:" $PROFILE
   ~/OSCAL/src/utils/util/oscal-content-validator.py --oscal-schema ~/OSCAL/xml/schema/oscal_profile_schema.xsd --oscal-file $PROFILE
 done
+
+for COMPONENT in components/organisation/cybersecurityroles.xml \
+   components/systemx/cybersecurityroles.xml
+do
+    echo "Validating component:" $COMPONENT
+    ~/OSCAL/src/utils/util/oscal-content-validator.py --oscal-schema ~/OSCAL/xml/schema/oscal_component_schema.xsd --oscal-file $COMPONENT
+done
