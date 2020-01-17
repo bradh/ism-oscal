@@ -1,7 +1,7 @@
 #! /bin/bash
 BASENAME='Australian_Government_Information_Security_Manual'
 echo $BASENAME
-VERSION=$BASENAME'_DEC19'
+VERSION=$BASENAME'_JAN20'
 echo $VERSION
 
 CATALOG=$VERSION'_catalog.xml'
