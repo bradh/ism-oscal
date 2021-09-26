@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ISM" type="ISMType">
+        <xs:annotation>
+            <xs:documentation>XSD for the Australian Cyber Security Centre provided version of the ISM controls in XML.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="ControlType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="Guideline">
+                <xs:annotation>
+                    <xs:documentation>The ISM guideline that this control is within. Conceptually a top-level grouping of controls.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element type="xs:string" name="Section">
+                <xs:annotation>
+                    <xs:documentation>The ISM section that this control is within. Conceptually a second-level grouping of controls.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element type="xs:string" name="Topic">
+                <xs:annotation>
+                    <xs:documentation>The control topic. Conceptually the name of the control.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element type="xs:string" name="Identifier">
+                <xs:annotation>
+                    <xs:documentation>The (numerical) identifier for the specific control. Formatted as 4 digits with leading zeros.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element type="xs:integer" name="Revision">
+                <xs:annotation>
+                    <xs:documentation>The revision number of the control (numerical sequence, starts at 0)</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element type="xs:string" name="Updated">
+                <xs:annotation>
+                    <xs:documentation>The ISM version that last updated this control (e.g. "Sep-18").</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="OFFICIAL">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:annotation>
+                            <xs:documentation>Whether this control is applicable at the OFFICIAL level.</xs:documentation>
+                        </xs:annotation>
+                        <xs:enumeration value="Yes" />
+                        <xs:enumeration value="No" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="PROTECTED">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:annotation>
+                            <xs:documentation>Whether this control is applicable at the PROTECTED level.</xs:documentation>
+                        </xs:annotation>
+                        <xs:enumeration value="Yes" />
+                        <xs:enumeration value="No" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="SECRET">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:annotation>
+                            <xs:documentation>Whether this control is applicable at the SECRET level.</xs:documentation>
+                        </xs:annotation>
+                        <xs:enumeration value="Yes" />
+                        <xs:enumeration value="No" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="TOP_SECRET">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:annotation>
+                            <xs:documentation>Whether this control is applicable at the TOP SECRET level.</xs:documentation>
+                        </xs:annotation>
+                        <xs:enumeration value="Yes" />
+                        <xs:enumeration value="No" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element type="xs:string" name="Description" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ISMType">
+        <xs:sequence>
+            <xs:element type="ControlType" name="Control" maxOccurs="unbounded" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

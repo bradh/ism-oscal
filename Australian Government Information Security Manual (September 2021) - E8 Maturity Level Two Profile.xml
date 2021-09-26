@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<profile xmlns="http://csrc.nist.gov/ns/oscal/1.0" uuid="87569f3f-b151-4320-a0ba-2d9980764bcc">
+  <metadata>
+    <title>Australian Government Information Security Manual - Essential 8 Maturity Level Two Profile</title>
+    <published>2021-09-26T04:15:19.260408Z</published>
+    <last-modified>2021-09-26T04:15:19.260428Z</last-modified>
+    <version>2021-09</version>
+    <oscal-version>1.0.0</oscal-version>
+    <remarks>
+      <p>Converted from ACSC ISM release 2021-09 and the ACSC Essential Eight to ISM Mapping dated 23 Sep 2021</p>
+    </remarks>
+  </metadata>
+  <import href="https%3A%2F%2Fraw.githubusercontent.com%2Fbradh%2Fism-oscal%2Fmain%2FAustralian+Government+Information+Security+Manual+%28September+2021%29+-+Catalog.xml">
+    <include-controls>
+      <with-id>controlid-0843</with-id>
+      <with-id>controlid-1490</with-id>
+      <with-id>controlid-1657</with-id>
+      <with-id>controlid-1660</with-id>
+      <with-id>controlid-1661</with-id>
+      <with-id>controlid-1690</with-id>
+      <with-id>controlid-1691</with-id>
+      <with-id>controlid-1693</with-id>
+      <with-id>controlid-1698</with-id>
+      <with-id>controlid-1699</with-id>
+      <with-id>controlid-1700</with-id>
+      <with-id>controlid-1704</with-id>
+      <with-id>controlid-1671</with-id>
+      <with-id>controlid-1488</with-id>
+      <with-id>controlid-1672</with-id>
+      <with-id>controlid-1673</with-id>
+      <with-id>controlid-1489</with-id>
+      <with-id>controlid-1677</with-id>
+      <with-id>controlid-1486</with-id>
+      <with-id>controlid-1485</with-id>
+      <with-id>controlid-1666</with-id>
+      <with-id>controlid-1667</with-id>
+      <with-id>controlid-1668</with-id>
+      <with-id>controlid-1669</with-id>
+      <with-id>controlid-1542</with-id>
+      <with-id>controlid-1670</with-id>
+      <with-id>controlid-1412</with-id>
+      <with-id>controlid-1585</with-id>
+      <with-id>controlid-1664</with-id>
+      <with-id>controlid-1507</with-id>
+      <with-id>controlid-1647</with-id>
+      <with-id>controlid-1648</with-id>
+      <with-id>controlid-1175</with-id>
+      <with-id>controlid-1380</with-id>
+      <with-id>controlid-1687</with-id>
+      <with-id>controlid-1688</with-id>
+      <with-id>controlid-1689</with-id>
+      <with-id>controlid-1387</with-id>
+      <with-id>controlid-1685</with-id>
+      <with-id>controlid-1509</with-id>
+      <with-id>controlid-1650</with-id>
+      <with-id>controlid-1694</with-id>
+      <with-id>controlid-1695</with-id>
+      <with-id>controlid-1701</with-id>
+      <with-id>controlid-1702</with-id>
+      <with-id>controlid-1501</with-id>
+      <with-id>controlid-1504</with-id>
+      <with-id>controlid-1679</with-id>
+      <with-id>controlid-1680</with-id>
+      <with-id>controlid-1681</with-id>
+      <with-id>controlid-1173</with-id>
+      <with-id>controlid-1401</with-id>
+      <with-id>controlid-1683</with-id>
+      <with-id>controlid-1511</with-id>
+      <with-id>controlid-1515</with-id>
+      <with-id>controlid-1705</with-id>
+      <with-id>controlid-1707</with-id>
+    </include-controls>
+  </import>
+  <merge>
+    <as-is>true</as-is>
+  </merge>
+  <back-matter>
+    <resource uuid="dab71890-edb6-4b28-8fad-2bd6422d84bc">
+      <description>
+        <p>Australian Government Information Security Manual 2021-09 - OSCAL Catalog</p>
+      </description>
+      <rlink href="https%3A%2F%2Fraw.githubusercontent.com%2Fbradh%2Fism-oscal%2Fmain%2FAustralian+Government+Information+Security+Manual+%28September+2021%29+-+Catalog.xml" media-type="application/oscal.catalog+xml"/>
+    </resource>
+  </back-matter>
+</profile>

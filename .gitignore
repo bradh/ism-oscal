@@ -1,0 +1,5 @@
+/xml2oscal/target/
+/ozcal/xml2oscal/target/
+/ozcal/oscaldatamodel/target/
+*.zip
+essential-eight-ism-mapping
