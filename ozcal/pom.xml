@@ -7,7 +7,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>xml2oscal</module>
-        <module>oscaldatamodel</module>
+        <!-- <module>oscaldatamodel</module> -->
     </modules>
     <properties>
         <googleformatter.maven.plugin.version>1.7.5</googleformatter.maven.plugin.version>
